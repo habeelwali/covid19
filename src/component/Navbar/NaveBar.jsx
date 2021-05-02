@@ -9,7 +9,11 @@ import  styles from './NaveBar.module.css';
 export default function NaveBar() {
 
 
+
+
   return (
+
+    
    
           <nav className={styles.container}>
          
@@ -32,6 +36,8 @@ export default function NaveBar() {
         
           </nav>
      
+     
+         
   
   );
   }
