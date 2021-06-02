@@ -2,7 +2,10 @@ import React from 'react'
 import styles from './Home.module.css';
 import { Grid, Box } from '@material-ui/core';
 import logo from './covlogo.jpeg'
-
+import cauth from './cauth.png'
+import breath from './breath.png'
+import faver from './faver.png'
+import trout from './trout.png'
 const Home = () => {
   
     return (
@@ -29,7 +32,7 @@ const Home = () => {
                      <p style={{fontSize:"1.78rem"}}>Cauching</p>
                         <div className={styles.innerbox}>
 
-                            <div className="icon-box"><img src="http://covid.gov.pk/theme_img/icons/w1.png" alt="" /></div>
+                            <div className="icon-box"><img src={cauth} alt="" /></div>
 
 
                         </div>
@@ -39,7 +42,7 @@ const Home = () => {
                     <div className={styles.servicebox2} >
                     <p style={{fontSize:"1.78rem"}}>Shortness Of Breath</p>
                         <div className={styles.innerbox}>
-                            <div className="icon-box"><img src="http://covid.gov.pk/theme_img/icons/w3.png" alt="" /></div>
+                            <div className="icon-box"><img src={breath} alt="" /></div>
 
 
                         </div>
@@ -56,7 +59,7 @@ const Home = () => {
                     <div className={styles.servicebox3}  >
                     <p style={{fontSize:"1.78rem"}}>Fever</p>
                         <div className={styles.innerbox}>
-                            <div className="icon-box"><img src="http://covid.gov.pk/theme_img/icons/w4.png" alt="" />  </div>
+                            <div className="icon-box"><img src={faver} alt="" />  </div>
 
                         </div>
                     </div>
@@ -65,7 +68,7 @@ const Home = () => {
                     <div className={styles.servicebox4}>
                     <p style={{fontSize:"1.78rem"}}>Sore Throat</p>
                         <div className={styles.innerbox}>
-                            <div className="icon-box" style={{marginBottom:"70%",marginLeft:"23%"}}><img src="http://covid.gov.pk/theme_img/icons/w5.png" alt="" /></div>
+                            <div className="icon-box" style={{marginBottom:"70%",marginLeft:"23%"}}><img src={trout} alt="" /></div>
 
 
                         </div>
